@@ -83,7 +83,7 @@ DEFAULT_PUBLIC_DOMAIN = "d3ddcdcd-f438-4d6c-8eaf-2735b84a2a86-00-3aztatsdsw85r.k
 DEFAULT_ADMIN_IDS = "6778167412"
 
 NGROK_AUTHTOKEN = "3D5fpwuHPV8Th3UmrOsuWyLgIbk_3KEaTRzfmYKoCEkTGrwtG"
-USE_NGROK = os.environ.get("USE_NGROK", "auto").lower()
+USE_NGROK = "off" 
 
 PORT = int(os.environ.get("PORT", str(DEFAULT_PORT)))
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", DEFAULT_BOT_TOKEN).strip()
